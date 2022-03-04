@@ -13,26 +13,75 @@
     <script src="https://kit.fontawesome.com/409aaff67c.js" crossorigin="anonymous"></script>
 </head>
 <body style="background-color:#e6e6e6">
-<nav class="container text-center">
-    <div style="background-color:#f0f0f0;height: 50%"></div>
-    <div class="row justify-content-center mt-3" style="border: 1px red solid">
-        <div class="col-3">
-            <img src="/img/codeup-designlogo.png" class="img-fluid" alt="logo">
+
+<!-- ---------XS---------- -->
+<nav class="container px-0  text-center d-flex-column     d-sm-none d-xxl-none">
+    <div style="background-color: #e6e6e6;height: 30px"></div>
+    <div style="display: flex; z-index: 1;background-color:white;height: 45px;justify-content: center;align-items: center">
+        <!--        <div class="justify-content-center mt-3 mx-0 w-100" style="display: flex;z-index: 1">-->
+        <div>
+            <img src="img/codeup-designlogo.png" alt="logo" width="80" height="24" class="img-fluid">
+            <!--            <img src="img/codeup-designlogo.png" alt="logo" width="80" height="24" class="img-fluid d-inline-block align-text-top">-->
         </div>
     </div>
-
-    <div>
-        <h3 class="col" style="width:100%">
-            codeup design
-        </h3>
-        <ul class="col-12 row justify-content-center" style="list-style: none; font-size: 10px; width: 100%">
-            <li class="col-3">SERVICES</li>
-            <li class="col-3">WORK</li>
-            <li class="col-3">BLOG</li>
-            <li class="col-3">CONTACT</li>
-        </ul>
+    <div class="pb-2 pt-4">
+        <h2>codeup design</h2>
+    </div>
+    <div class="ps-3 row col-12" style="font-size: 9px;">
+        <div class="col-3"><a href="#" style="text-decoration: none;color: black">SERVICES</a></div>
+        <div class="col-3"><a href="#" style="text-decoration: none;color: black">WORK</a></div>
+        <div class="col-3"><a href="#" style="text-decoration: none;color: black">BLOG</a></div>
+        <div class="col-3"><a href="#" style="text-decoration: none;color: black">CONTACT</a></div>
+    </div>
+    <br>
     </div>
 </nav>
+
+<!-- Small -->
+<nav class="text-center d-none d-sm-block d-md-none d-xxl-none container" style="background-color:#e6e6e6">
+    <div class="navbar-brand" href="#">
+        <a class="px-2 align-middle" href="#" style="text-decoration: none; color:black"> SERVICES</a>
+        <a class="px-2 align-middle" href="#" style="text-decoration: none; color:black">WORK</a>
+        <a class="px-2 align-middle" href="#" style="text-decoration: none; color:black"> <img
+                src="img/codeup-designlogo.png" alt="logo" width="80" height="24"
+                class="img-fluid d-inline-block align-text-top"></a>
+        <a class="px-2 align-middle" href="#" style="text-decoration: none; color:black">BLOG</a>
+        <a class="px-2 align-middle" href="#" style="text-decoration: none; color:black">CONTACT</a>
+    </div>
+    <h3 class="text-center" style="width:100%;">
+        codeup design
+    </h3>
+</nav>
+
+<!-- Medium -->
+<nav class="container         d-none d-sm-none d-md-block d-lg-none d-xxl-none">
+    <div class="d-flex align-items-center bd-highlight">
+        <div class="px-2 align-middle" href="#" style="text-decoration: none; color:black"><img
+                src="img/codeup-designlogo.png" alt="logo" width="80" height="24" class="img-fluid"></div>
+        <div class="pe-5 align-middle" href="#" style="text-decoration: none; color:black"><h2>codeup design</h2></div>
+        <div class="ps-5 align-middle" href="#" style="text-decoration: none; color:black">SERVICES</div>
+        <div class="px-2 align-middle" href="#" style="text-decoration: none; color:black">WORK</div>
+        <div class="px-2 align-middle" href="#" style="text-decoration: none; color:black">BLOG</div>
+        <div class="px-2 align-middle" href="#" style="text-decoration: none; color:black">CONTACT</div>
+    </div>
+</nav>
+
+<div class="row">
+    <nav class="container ms-5 mt-3 d-none d-sm-none d-md-none d-lg-block d-xxl-block">
+        <div class="justify-content-center d-flex align-items-center bd-highlight" style="width: 100%">
+            <div class="px-0 pe-0  align-middle" href="#" style="text-decoration: none; color:black"><img
+                    src="img/codeup-designlogo.png" alt="logo" width="80" height="24" class="img-fluid"></div>
+            <div class="pe-5  align-middle" href="#" style="text-decoration: none; color:black"><h2>codeup design</h2>
+            </div>
+            <div class="ps-5 align-middle" href="#" style="text-decoration: none; color:black">SERVICES</div>
+            <div class="px-2 align-middle" href="#" style="text-decoration: none; color:black">WORK</div>
+            <div class="px-2 align-middle" href="#" style="text-decoration: none; color:black">BLOG</div>
+            <div class="px-2 align-middle" href="#" style="text-decoration: none; color:black">CONTACT</div>
+        </div>
+    </nav>
+</div>
+
+
 <section class="container-fluid text-center pb-5">
     <div class="row" style="font-family:anton">
         <div class="col">
@@ -49,122 +98,211 @@
         </div>
     </div>
 </section>
-<section class="container">
+
+<section class="container pb-3">
     <div class="row justify-content-center">
         <!--        <div class="row">-->
         <div class="col-6 rounded-circle d-flex align-items-center me-2"
-             style="background-color:#e6563b; width: 105px; height: 105px; border: 4px white solid">
-            <p class="mt-2 p-2">DESIGN</p>
+             style="background-color:#e6563b; width: 105px; height: 105px; border: 4px white solid; color: white">
+            <p class="mt-2 p-2"><b>DESIGN</b></p>
         </div>
         <div class="col-6 rounded-circle d-flex align-items-center"
-             style="background-color:#dea03d; width: 105px; height: 105px; border: 4px white solid">
-            <p class="mt-2">DEVELOP</p>
+             style="background-color:#dea03d; width: 105px; height: 105px; border: 4px white solid; color: white">
+            <p class="mt-2"><b>DEVELOP</b></p>
         </div>
         <div class="col-6 rounded-circle d-flex align-items-center me-2"
-             style="background-color:#7cb06c; width: 105px; height: 105px; border: 4px white solid">
-            <p class="mt-2">SUPPORT</p>
+             style="background-color:#7cb06c; width: 105px; height: 105px; border: 4px white solid; color: white">
+            <p class="mt-2"><b>SUPPORT</b></p>
         </div>
         <div class="col-6 rounded-circle d-flex align-items-center"
-             style="background-color:#00aba9; width: 105px; height: 105px; border: 4px white solid">
-            <p class="mt-2 p-3">HOST</p>
+             style="background-color:#00aba9; width: 105px; height: 105px; border: 4px white solid; color: white">
+            <p class="mt-2 p-3"><b>HOST</b></p>
         </div>
     </div>
 </section>
-
-<div class="col-8 d-none d-sm-block align-items-center">
-    <hr>
-</div>
-
-<section class="container text-center">
-<!--    <div class="row pt-5">-->
-<!--        <p>SELECTED WORK</p>-->
-<!--    </div>-->
+<!--SM screen cards-->
+<section>
+    <div class="row row-cols-1 row-cols-sm-2 g-4 justify-content-center mx-auto d-block d-sm-block d-md-none d-xxl-none">
+        <div class="col">
+            <div class="card p-0" style="width: 18rem;">
+                <img src="img/apple-ipad.jpg" class="card-img-top" alt="iPad" style="border: 4px #999696 solid">
+                <div class="card-body ps-0" style="background-color:#e6e6e6">
+                    <div class="row">
+                        <p class="card-title col-6 pe-0" style="width: 50%;font-size: 12px">FEATURED PROJECT</p>
+                        <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
+                             style="width: 18px; height: 21px;background-color: #e6563b;"><p class="mt-3">D</pclassmt-3>
+                        </div>
+                        <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
+                             style="width: 18px; height: 21px;background-color: #dea03d;"><p class="mt-3">D</p></div>
+                        <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
+                             style="width: 18px; height: 21px;background-color: #7cb06c;"><p class="mt-3">S</p></div>
+                        <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
+                             style="width: 18px; height: 21px;background-color: #00aba9;"><p class="mt-3">H</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card p-0" style="width: 18rem;">
+                <img src="img/macbook.jpg" class="card-img-top" alt="iPad" style="border: 4px #999696 solid">
+                <div class="card-body ps-0" style="background-color:#e6e6e6">
+                    <div class="row">
+                        <p class="card-title col-6 pe-0" style="width: 50%;font-size: 12px">FEATURED PROJECT</p>
+                        <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
+                             style="width: 18px; height: 21px;background-color: #e6563b;"><p class="mt-3">D</pclassmt-3>
+                        </div>
+                        <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
+                             style="width: 18px; height: 21px;background-color: #dea03d;"><p class="mt-3">D</p></div>
+                        <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
+                             style="width: 18px; height: 21px;background-color: #7cb06c;"><p class="mt-3">S</p></div>
+                        <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
+                             style="width: 18px; height: 21px;background-color: #00aba9;"><p class="mt-3">H</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card p-0" style="width: 18rem;">
+                <img src="img/man.jpg" class="card-img-top" alt="iPad" style="border: 4px #999696 solid">
+                <div class="card-body ps-0" style="background-color:#e6e6e6">
+                    <div class="row">
+                        <p class="card-title col-6 pe-0" style="width: 50%;font-size: 12px">FEATURED PROJECT</p>
+                        <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
+                             style="width: 18px; height: 21px;background-color: #e6563b;"><p class="mt-3">D</pclassmt-3>
+                        </div>
+                        <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
+                             style="width: 18px; height: 21px;background-color: #dea03d;"><p class="mt-3">D</p></div>
+                        <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
+                             style="width: 18px; height: 21px;background-color: #7cb06c;"><p class="mt-3">S</p></div>
+                        <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
+                             style="width: 18px; height: 21px;background-color: #00aba9;"><p class="mt-3">H</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card p-0" style="width: 18rem;">
+                <img src="img/security.jpg" class="card-img-top" alt="iPad" style="border: 4px #999696 solid">
+                <div class="card-body ps-0" style="background-color:#e6e6e6">
+                    <div class="row">
+                        <p class="card-title col-6 pe-0" style="width: 50%;font-size: 12px">FEATURED PROJECT</p>
+                        <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
+                             style="width: 18px; height: 21px;background-color: #e6563b;"><p class="mt-3">D</pclassmt-3>
+                        </div>
+                        <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
+                             style="width: 18px; height: 21px;background-color: #dea03d;"><p class="mt-3">D</p></div>
+                        <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
+                             style="width: 18px; height: 21px;background-color: #7cb06c;"><p class="mt-3">S</p></div>
+                        <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
+                             style="width: 18px; height: 21px;background-color: #00aba9;"><p class="mt-3">H</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </section>
 
-<section class="container row">
+<!--MD screen cards-->
+<section>
+
+</section>
+
+
+<section class="container row justify-content-center mx-auto">
+    <hr class="d-none d-sm-block">
     <div class="row col-md-8 justify-content-center">
-        <div class="row pt-5">
-        <p>SELECTED WORK</p>
+        <div class="col-12 pt-5 text-center text-md-start ">
+            <p>SELECTED WORK</p>
+        </div>
+<!--        <div class="card p-0" style="width: 18rem;">-->
+<!--            <img src="img/apple-ipad.jpg" class="card-img-top" alt="iPad" style="border: 4px #999696 solid">-->
+<!--            <div class="card-body ps-0" style="background-color:#e6e6e6">-->
+<!--                <div class="row">-->
+<!--                    <p class="card-title col-6 pe-0" style="width: 50%;font-size: 12px">FEATURED PROJECT</p>-->
+<!--                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"-->
+<!--                         style="width: 18px; height: 21px;background-color: #e6563b;"><p class="mt-3">D</p>-->
+<!--                    </div>-->
+<!--                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"-->
+<!--                         style="width: 18px; height: 21px;background-color: #dea03d;"><p class="mt-3">D</p>-->
+<!--                    </div>-->
+<!--                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"-->
+<!--                         style="width: 18px; height: 21px;background-color: #7cb06c;"><p class="mt-3">S</p>-->
+<!--                    </div>-->
+<!--                    <div class="rounded-circle d-flex justify-content-center align-items-center me-"-->
+<!--                         style="width: 18px; height: 21px;background-color: #00aba9;"><p class="mt-3">H</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+
+<!--        <div class="card p-0" style="width: 18rem;">-->
+<!--            <img src="img/man.jpg" class="card-img-top" alt="iPad" style="border: 4px #999696 solid">-->
+<!--            <div class="card-body ps-0" style="background-color:#e6e6e6">-->
+<!--                <div class="row">-->
+<!--                    <p class="card-title col-6 pe-0" style="width: 50%;font-size: 12px">FEATURED PROJECT</p>-->
+<!--                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"-->
+<!--                         style="width: 18px; height: 21px;background-color: #e6563b;"><p class="mt-3">D</p>-->
+<!--                    </div>-->
+<!--                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"-->
+<!--                         style="width: 18px; height: 21px;background-color: #dea03d;"><p class="mt-3">D</p>-->
+<!--                    </div>-->
+<!--                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"-->
+<!--                         style="width: 18px; height: 21px;background-color: #7cb06c;"><p class="mt-3">S</p>-->
+<!--                    </div>-->
+<!--                    <div class="rounded-circle d-flex justify-content-center align-items-center me-"-->
+<!--                         style="width: 18px; height: 21px;background-color: #00aba9;"><p class="mt-3">H</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+
+<!--        <div class="card p-0" style="width: 18rem;">-->
+<!--            <img src="img/macbook.jpg" class="card-img-top" alt="iPad" style="border: 4px #999696 solid">-->
+<!--            <div class="card-body ps-0" style="background-color:#e6e6e6">-->
+<!--                <div class="row">-->
+<!--                    <p class="card-title col-6 pe-0" style="width: 50%;font-size: 12px">FEATURED PROJECT</p>-->
+<!--                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"-->
+<!--                         style="width: 18px; height: 21px;background-color: #e6563b;"><p class="mt-3">D</p>-->
+<!--                    </div>-->
+<!--                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"-->
+<!--                         style="width: 18px; height: 21px;background-color: #dea03d;"><p class="mt-3">D</p>-->
+<!--                    </div>-->
+<!--                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"-->
+<!--                         style="width: 18px; height: 21px;background-color: #7cb06c;"><p class="mt-3">S</p>-->
+<!--                    </div>-->
+<!--                    <div class="rounded-circle d-flex justify-content-center align-items-center me-"-->
+<!--                         style="width: 18px; height: 21px;background-color: #00aba9;"><p class="mt-3">H</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+
+<!--        <div class="card p-0" style="width: 18rem;">-->
+<!--            <img src="img/security.jpg" class="card-img-top" alt="iPad" style="border: 4px #999696 solid">-->
+<!--            <div class="card-body ps-0" style="background-color:#e6e6e6">-->
+<!--                <div class="row">-->
+<!--                    <p class="card-title col-6 pe-0" style="width: 50%;font-size: 12px">FEATURED PROJECT</p>-->
+<!--                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"-->
+<!--                         style="width: 18px; height: 21px;background-color: #e6563b;"><p class="mt-3">D</p>-->
+<!--                    </div>-->
+<!--                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"-->
+<!--                         style="width: 18px; height: 21px;background-color: #dea03d;"><p class="mt-3">D</p>-->
+<!--                    </div>-->
+<!--                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"-->
+<!--                         style="width: 18px; height: 21px;background-color: #7cb06c;"><p class="mt-3">S</p>-->
+<!--                    </div>-->
+<!--                    <div class="rounded-circle d-flex justify-content-center align-items-center me-"-->
+<!--                         style="width: 18px; height: 21px;background-color: #00aba9;"><p class="mt-3">H</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
 
-
-        <div class="card p-0" style="width: 18rem;">
-            <img src="img/apple-ipad.jpg" class="card-img-top" alt="iPad" style="border: 4px #999696 solid">
-            <div class="card-body ps-0" style="background-color:#e6e6e6">
-                <div class="row">
-                    <p class="card-title col-6 pe-0" style="width: 50%;font-size: 12px">FEATURED PROJECT</p>
-                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
-                         style="width: 18px; height: 21px;background-color: #e6563b;"><p class="mt-3">D</pclassmt-3>
-                    </div>
-                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
-                         style="width: 18px; height: 21px;background-color: #dea03d;"><p class="mt-3">D</p></div>
-                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
-                         style="width: 18px; height: 21px;background-color: #7cb06c;"><p class="mt-3">S</p></div>
-                    <div class="rounded-circle d-flex justify-content-center align-items-center me-"
-                         style="width: 18px; height: 21px;background-color: #00aba9;"><p class="mt-3">H</p></div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="card p-0" style="width: 18rem;">
-            <img src="img/man.jpg" class="card-img-top" alt="iPad" style="border: 4px #999696 solid">
-            <div class="card-body ps-0" style="background-color:#e6e6e6">
-                <div class="row">
-                    <p class="card-title col-6 pe-0" style="width: 50%;font-size: 12px">FEATURED PROJECT</p>
-                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
-                         style="width: 18px; height: 21px;background-color: #e6563b;"><p class="mt-3">D</pclassmt-3>
-                    </div>
-                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
-                         style="width: 18px; height: 21px;background-color: #dea03d;"><p class="mt-3">D</p></div>
-                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
-                         style="width: 18px; height: 21px;background-color: #7cb06c;"><p class="mt-3">S</p></div>
-                    <div class="rounded-circle d-flex justify-content-center align-items-center me-"
-                         style="width: 18px; height: 21px;background-color: #00aba9;"><p class="mt-3">H</p></div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="card p-0" style="width: 18rem;">
-            <img src="img/macbook.jpg" class="card-img-top" alt="iPad" style="border: 4px #999696 solid">
-            <div class="card-body ps-0" style="background-color:#e6e6e6">
-                <div class="row">
-                    <p class="card-title col-6 pe-0" style="width: 50%;font-size: 12px">FEATURED PROJECT</p>
-                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
-                         style="width: 18px; height: 21px;background-color: #e6563b;"><p class="mt-3">D</pclassmt-3>
-                    </div>
-                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
-                         style="width: 18px; height: 21px;background-color: #dea03d;"><p class="mt-3">D</p></div>
-                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
-                         style="width: 18px; height: 21px;background-color: #7cb06c;"><p class="mt-3">S</p></div>
-                    <div class="rounded-circle d-flex justify-content-center align-items-center me-"
-                         style="width: 18px; height: 21px;background-color: #00aba9;"><p class="mt-3">H</p></div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="card p-0" style="width: 18rem;">
-            <img src="img/security.jpg" class="card-img-top" alt="iPad" style="border: 4px #999696 solid">
-            <div class="card-body ps-0" style="background-color:#e6e6e6">
-                <div class="row">
-                    <p class="card-title col-6 pe-0" style="width: 50%;font-size: 12px">FEATURED PROJECT</p>
-                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
-                         style="width: 18px; height: 21px;background-color: #e6563b;"><p class="mt-3">D</pclassmt-3>
-                    </div>
-                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
-                         style="width: 18px; height: 21px;background-color: #dea03d;"><p class="mt-3">D</p></div>
-                    <div class="rounded-circle d-flex justify-content-center align-items-center me-2"
-                         style="width: 18px; height: 21px;background-color: #7cb06c;"><p class="mt-3">S</p></div>
-                    <div class="rounded-circle d-flex justify-content-center align-items-center me-"
-                         style="width: 18px; height: 21px;background-color: #00aba9;"><p class="mt-3">H</p></div>
-                </div>
-            </div>
-        </div>
-
-    </div>
     <div class="col-md-4">
         <div class="row justify-content-center pt-5">
             <p>THE LAST</p>
@@ -208,21 +346,24 @@
             </div>
         </div>
         <div class="card border-secondary mb-3" style="max-width: 18rem;background-color:#e6e6e6; border: none">
-            <div class="card-header" style="border: none; background-color:#e6e6e6"><i class="fa-brands fa-twitter text-primary"></i> LAST TWEET</div>
+            <div class="card-header" style="border: none; background-color:#e6e6e6"><i
+                    class="fa-brands fa-twitter text-primary"></i> LAST TWEET
+            </div>
             <div class="card-body text-secondary">
-                <p class="card-text" style="font-size: 10px"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span</p>
+                <p class="card-text" style="font-size: 10px"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                </p>
             </div>
         </div>
 
-<!--        <div class="card mb-3" style="max-width: 540px; background-color: #E6E6E6;border: none;">-->
-<!--            <div class="row g-0">-->
-<!--                <div class="col-md-8">-->
-<!--                    <div class="card-body">-->
-<!--                        <p class="card-title">LAST TWEET</p>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
+        <!--        <div class="card mb-3" style="max-width: 540px; background-color: #E6E6E6;border: none;">-->
+        <!--            <div class="row g-0">-->
+        <!--                <div class="col-md-8">-->
+        <!--                    <div class="card-body">-->
+        <!--                        <p class="card-title">LAST TWEET</p>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
     </div>
 
 </section>
